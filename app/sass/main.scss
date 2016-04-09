@@ -1,0 +1,25 @@
+@import '../sprite/sprite';
+@import '_common/head';
+@import '_common/header';
+@import '_common/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: table;
+  height: 100%;
+}
+
+.content {
+  display: table-row;
+  height: 100%;
+}
